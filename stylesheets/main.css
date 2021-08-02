@@ -10,6 +10,7 @@
     --purple: #381741;
 }
 
+
 /* #ab729f */
 * {
     background-color: #c598af;
@@ -80,28 +81,28 @@ span:hover {
     opacity: 2;
 }
 
-.dot-red {
+.red {
     background-color: var(--red);
 }
 
-.dot-blue {
+.blue {
     background-color: var(--blue);
 }
 
-.dot-green {
+.green {
     background-color: var(--green);
 }
 
-.dot-yellow {
+.yellow {
     background-color: var(--yellow);
 }
 
-.dot-pink {
+.pink {
     background-color: var(--pink);
 }
 
-.dot-gray {
-    background-color: var(--gray);
+.purple {
+    background-color: var(--purple);
 }
 
 .your-answer {
@@ -118,23 +119,13 @@ span:hover {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
-.first-answer {
-    background-color: var(--gray);
+.default {
+    /* background-color: var(--gray); */
 }
 
-.second-answer {
-    background-color: var(--gray);
-}
-
-.third-answer {
-    background-color: var(--gray);
-}
-
-.fourth-answer {
-    background-color: var(--gray);
-}
 
 button {
     border-radius: 5px;
@@ -144,7 +135,7 @@ button {
 }
 
 .clickables {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
 }
